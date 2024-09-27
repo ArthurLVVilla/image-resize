@@ -1,0 +1,18 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "A Node.js tool to resize images from an input directory to an output directory.",
+  "main": "src/imageResizer.mjs",
+  "scripts": {
+    "start": "node src/imageResizer.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["image", "resize", "sharp", "nodejs"],
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "p-limit": "^3.1.0",
+    "sharp": "^0.31.3"
+  }
+}
