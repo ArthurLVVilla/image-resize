@@ -2,7 +2,7 @@
   "name": "image-resizer",
   "version": "1.0.0",
   "description": "A Node.js tool to resize images from an input directory to an output directory.",
-  "main": "src/imageResizer.mjs",
+  "main": "src/image-resize.mjs",
   "scripts": {
     "start": "node src/imageResizer.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
