@@ -25,16 +25,17 @@ Este projeto redimensiona imagens de uma pasta de entrada para uma pasta de saí
 
 ### Exemplo:
 
-
-	```bash 
-	const inputDir = '/caminho/para/pasta/de/entrada';
-	const outputDir = '/caminho/para/pasta/de/saida';
+```bash 
+const inputDir = '/caminho/para/pasta/de/entrada';
+const outputDir = '/caminho/para/pasta/de/saida';
+```
 
 ### Como Usar
 >Após configurar os diretórios de entrada e saída, você pode iniciar o processo de redimensionamento de imagens com o seguinte comando:
 
-	```bash
+```bash
 	npm start
+```
 
 >Isso redimensionará as imagens encontradas no diretório de entrada para 400x400 pixels e as salvará no diretório de saída, mantendo a estrutura de pastas.
 
